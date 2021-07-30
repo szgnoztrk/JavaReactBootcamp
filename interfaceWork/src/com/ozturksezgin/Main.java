@@ -22,6 +22,7 @@ public class Main {
         User user = new User(1L, "Sezgin", "ÖZTÜRK", "1996-10-24", "29776973134");
         Product product1 = new Product(1L,"GTA V", "2014 Game", 150L, 180.50, new Date());
         Product product2 = new Product(1L,"GTA V", "2014 Game", 150L, 180.50, new Date());
+        Product product2 = new Product(1L,"GTA V", "2014 Game", 150L, 180.50, new Date());
         Campaign campaign = new Campaign(1L, "Summer Sale", "SUMMER2021", 25.99, new Date(), new Date());
         Order order = new Order(1L, user, Arrays.asList(product1, product2), new Date());
 
