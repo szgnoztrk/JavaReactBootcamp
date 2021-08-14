@@ -24,6 +24,7 @@ public class Main {
 
         orderService.addCampaignForOrder(campaign);
         orderService.addOrder();
+        System.out.println("Selam");
 
     }
 }
